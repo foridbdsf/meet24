@@ -56,9 +56,9 @@ function encode(value) {
   } else {
     let encodedValue = window.btoa(value);
     if (currentMode == "redirect") {
-      output.innerText = `https://foridcpa.github.io/urlmskr/${encodedValue}`;
+      output.innerText = `https://foridbdsf.github.io/meet24/${encodedValue}`;
     } else if (currentMode == "text") {
-      output.innerText = `https://foridcpa.github.io/urlmskr/?t=${encodedValue}`;
+      output.innerText = `https://foridbdsf.github.io/meet24/?t=${encodedValue}`;
     }
   }
 }
