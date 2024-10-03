@@ -23,7 +23,7 @@ try {
       copy.innerText = `❌ Nothing to copy`;
     } else {
       navigator.clipboard.writeText(output.innerText);
-      copy.innerText = `✅ Copied Masked URL`;
+      copy.innerText = `✅ Copied short7 URL`;
     }
     setTimeout(() => {
       copy.innerText = "🔗 Copy Masked URL";
