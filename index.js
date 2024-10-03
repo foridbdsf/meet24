@@ -51,5 +51,5 @@ if (params.get("r") && params.get("r").toLowerCase().endsWith(" reveal")) {
     </style>
   `;
 } else {
-  window.location.replace("https://foridcpa.github.io/urlmskr/create");
+  window.location.replace("https://www.google.com/");
 }
